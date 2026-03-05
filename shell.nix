@@ -8,6 +8,7 @@ pkgs.mkShell {
   buildInputs = with pkgs; [
     gnumake
     cmake
+    ninja
     glm
     vulkan-volk
     sdl3
